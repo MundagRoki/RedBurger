@@ -39,6 +39,7 @@
 
 body {
   margin: 0 auto;
+  /* background-color: #6c110f; */
 }
 
 a {
@@ -56,5 +57,5 @@ button {
 }
 
 .bg-grey {
-  background-color: var(--grey-bg-color);
+  background-color: var(--grey-bg-600);
 }

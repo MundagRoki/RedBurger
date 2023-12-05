@@ -21,6 +21,7 @@ nav {
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
+  padding-top: 10px;
 }
 
 .try__btn {
@@ -70,6 +71,65 @@ nav {
 
 .sticky {
   position: fixed;
-  right: 0;
+  right: 48px;
 }
 /* nar bar */
+
+/* hero page */
+.title-r {
+  font-family: "Integral cf Bold";
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  font-size: 210px;
+}
+
+.title-r div {
+  height: 2.5px;
+  border-radius: 1.75px;
+  width: 100%;
+  background-color: black;
+}
+
+.texts {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.texts p {
+  width: 200px;
+  font-family: "Integral cf";
+  font-size: 12px;
+  line-height: 15px;
+  letter-spacing: 2%;
+}
+
+.texts p:nth-child(1) {
+  margin-bottom: 220px;
+  margin-right: 150px;
+}
+
+.mouse__container {
+  display: flex;
+  justify-content: center;
+  font-family: "Neue Plak Extended Semi";
+  font-size: 12px;
+}
+
+.mouse {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.fashion-index {
+  position: absolute;
+  display: flex;
+  right: 20%;
+  bottom: 10%;
+}
+
+.fashion-index p {
+  font-family: "Druk Wide Bold";
+  font-size: 12px;
+}
